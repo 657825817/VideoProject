@@ -33,11 +33,24 @@
     "enableSnapping": true,
     "snapThreshold": 4
   },
+  "float-window": {
+    "position": {
+      "cc": {
+        "Camera": {
+          "dock": false,
+          "top": null,
+          "bottom": 10,
+          "left": null,
+          "right": 10
+        }
+      }
+    }
+  },
   "camera-infos": {
-    "03a2f9e6-5855-4d86-87fb-a0108becd1f7": {
+    "0ef84ae0-3c68-4637-b342-b47bf4809109": {
       "position": {
-        "x": 150,
-        "y": 75,
+        "x": 640,
+        "y": 360,
         "z": 5000
       },
       "rotation": {
@@ -53,16 +66,16 @@
       },
       "contentRect": {
         "x": 0,
-        "y": 0,
-        "width": 210,
-        "height": 105
+        "y": 7.129098191439767e-14,
+        "width": 510.3,
+        "height": 287.04375
       },
-      "scale": 0.7
+      "scale": 0.398671875
     },
-    "4fdff5ef-85a4-4579-8b75-d9e21fb1c7a4": {
+    "f40500bd-8136-4573-a316-0f7176e3e026": {
       "position": {
-        "x": 959.9999999999995,
-        "y": 540,
+        "x": 960,
+        "y": 539.9999999999998,
         "z": 5000
       },
       "rotation": {
@@ -77,17 +90,17 @@
         "z": 0
       },
       "contentRect": {
-        "x": 0,
-        "y": 0,
-        "width": 186.66666666666666,
-        "height": 105
+        "x": 959.9999999999999,
+        "y": 539.9999999999999,
+        "width": 510.3,
+        "height": 287.04375
       },
-      "scale": 0.09722222222222222
+      "scale": 0.26578125
     }
   },
   "camera-uuids": [
-    "03a2f9e6-5855-4d86-87fb-a0108becd1f7",
-    "4fdff5ef-85a4-4579-8b75-d9e21fb1c7a4"
+    "0ef84ae0-3c68-4637-b342-b47bf4809109",
+    "f40500bd-8136-4573-a316-0f7176e3e026"
   ],
   "camera": {
     "color": [

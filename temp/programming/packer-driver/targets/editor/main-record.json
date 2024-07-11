@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 45237.82149999961,
+      "mTimestamp": 36986.2343999967,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 75639.21189999953,
+      "mTimestamp": 85332.63089999929,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -658,7 +658,7 @@
           }
         },
         {
-          "value": "file:///D:/CocosCreator/VideoProject/assets/Script/AssetManagerVideoPlayer.ts",
+          "value": "file:///D:/CocosCreator/VideoProject/assets/Script/VideoController.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -667,35 +667,7 @@
             },
             "end": {
               "line": 5,
-              "column": 267
-            }
-          }
-        },
-        {
-          "value": "file:///D:/CocosCreator/VideoProject/assets/Script/VideoController.ts",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 283
-            },
-            "end": {
-              "line": 5,
-              "column": 354
-            }
-          }
-        },
-        {
-          "value": "file:///D:/CocosCreator/VideoProject/assets/Script/VideoPlayerController.ts",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 370
-            },
-            "end": {
-              "line": 5,
-              "column": 447
+              "column": 259
             }
           }
         }
@@ -712,21 +684,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/CocosCreator/VideoProject/assets/Script/AssetManagerVideoPlayer.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
             "url": "file:///D:/CocosCreator/VideoProject/assets/Script/VideoController.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///D:/CocosCreator/VideoProject/assets/Script/VideoPlayerController.ts"
           },
           "messages": []
         }
@@ -784,12 +742,12 @@
         }
       ]
     },
-    "file:///D:/CocosCreator/VideoProject/assets/Script/AssetManagerVideoPlayer.ts": {
+    "file:///D:/CocosCreator/VideoProject/assets/Script/VideoController.ts": {
       "mTimestamp": {
-        "mtime": 1720685449520.3667,
+        "mtime": 1720694155008.937,
         "uuid": "effb0196-d32e-4a5b-a8c5-a929b726c475"
       },
-      "chunkId": "4e07495f02b8f527b16b0b6daabb5143eabf71e4",
+      "chunkId": "672d32543be352d08cf6843771656129d71a9a7b",
       "imports": [
         {
           "value": "cc"
@@ -807,110 +765,6 @@
             "end": {
               "line": 1,
               "column": 96
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///D:/CocosCreator/VideoProject/assets/Script/VideoController.ts": {
-      "mTimestamp": {
-        "mtime": 1720678616516.5854,
-        "uuid": "69802162-ca50-4b0f-99c4-51e3db4ad494"
-      },
-      "chunkId": "672d32543be352d08cf6843771656129d71a9a7b",
-      "imports": [
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 76
-            },
-            "end": {
-              "line": 1,
-              "column": 80
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///D:/CocosCreator/VideoProject/assets/Script/VideoPlayerController.ts": {
-      "mTimestamp": {
-        "mtime": 1720675896795.2014,
-        "uuid": "2568fb8a-2971-4b30-aca7-f9a976f4bfb3"
-      },
-      "chunkId": "b5759057ea07a1a7aaee2644e8dc20331007e8e9",
-      "imports": [
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 56
-            },
-            "end": {
-              "line": 1,
-              "column": 60
             }
           }
         }

@@ -1,0 +1,11 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz",
+        "version": "Windows 10 Pro"
+    },
+    "sceneListMap": {
+        "f40500bd-8136-4573-a316-0f7176e3e026": "D:\\CocosCreator\\VideoProject\\assets\\Scene\\VideoScene.scene"
+    },
+    "deviceMd5": "870f74f4fe5c4e1e00b75a091d3c572f"
+}

@@ -2631,6 +2631,9 @@
     "D:\\CocosCreator\\CocosCreator3.8.3\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\atom_new.plist": [
       "D:\\CocosCreator\\CocosCreator3.8.3\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\atom.png"
     ],
+    "D:\\CocosCreator\\CocosCreator3.8.3\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-BoldItalic.fnt": [
+      "D:\\CocosCreator\\CocosCreator3.8.3\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-BoldItalic_0.png"
+    ],
     "D:\\CocosCreator\\CocosCreator3.8.3\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Italic.fnt": [
       "D:\\CocosCreator\\CocosCreator3.8.3\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Italic_0.png"
     ],
@@ -2639,9 +2642,6 @@
     ],
     "D:\\CocosCreator\\CocosCreator3.8.3\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Regular.fnt": [
       "D:\\CocosCreator\\CocosCreator3.8.3\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Regular_0.png"
-    ],
-    "D:\\CocosCreator\\CocosCreator3.8.3\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-BoldItalic.fnt": [
-      "D:\\CocosCreator\\CocosCreator3.8.3\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-BoldItalic_0.png"
     ],
     "D:\\CocosCreator\\CocosCreator3.8.3\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\atom.plist": [
       "D:\\CocosCreator\\CocosCreator3.8.3\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\atom.png"

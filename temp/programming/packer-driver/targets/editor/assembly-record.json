@@ -213,7 +213,7 @@
           "messages": []
         }
       },
-      "timestamp": 1720691685076
+      "timestamp": 1720694447450
     },
     "757d5cb259289b87021a5a9c56c085b495d3188b": {
       "imports": {
@@ -225,7 +225,7 @@
           "messages": []
         }
       },
-      "timestamp": 1720691685417
+      "timestamp": 1720694447803
     },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
@@ -239,38 +239,12 @@
         "__unresolved_1": {
           "resolved": {
             "type": "chunk",
-            "id": "4e07495f02b8f527b16b0b6daabb5143eabf71e4"
-          },
-          "messages": []
-        },
-        "__unresolved_2": {
-          "resolved": {
-            "type": "chunk",
             "id": "672d32543be352d08cf6843771656129d71a9a7b"
           },
           "messages": []
-        },
-        "__unresolved_3": {
-          "resolved": {
-            "type": "chunk",
-            "id": "b5759057ea07a1a7aaee2644e8dc20331007e8e9"
-          },
-          "messages": []
         }
       },
-      "timestamp": 1720691715310
-    },
-    "4e07495f02b8f527b16b0b6daabb5143eabf71e4": {
-      "imports": {
-        "cc": {
-          "resolved": {
-            "type": "chunk",
-            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
-          },
-          "messages": []
-        }
-      },
-      "timestamp": 1720691715427
+      "timestamp": 1720694495624
     },
     "672d32543be352d08cf6843771656129d71a9a7b": {
       "imports": {
@@ -282,27 +256,13 @@
           "messages": []
         }
       },
-      "timestamp": 1720691715475
-    },
-    "b5759057ea07a1a7aaee2644e8dc20331007e8e9": {
-      "imports": {
-        "cc": {
-          "resolved": {
-            "type": "chunk",
-            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
-          },
-          "messages": []
-        }
-      },
-      "timestamp": 1720691715537
+      "timestamp": 1720694495733
     }
   },
   "entries": {
     "cce:/internal/x/cc": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
     "cce:/internal/x/prerequisite-imports": "6d8fd2b0177941b032ddc0733af48a561fb60657",
     "file:///D:/CocosCreator/CocosCreator3.8.3/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "757d5cb259289b87021a5a9c56c085b495d3188b",
-    "file:///D:/CocosCreator/VideoProject/assets/Script/AssetManagerVideoPlayer.ts": "4e07495f02b8f527b16b0b6daabb5143eabf71e4",
-    "file:///D:/CocosCreator/VideoProject/assets/Script/VideoController.ts": "672d32543be352d08cf6843771656129d71a9a7b",
-    "file:///D:/CocosCreator/VideoProject/assets/Script/VideoPlayerController.ts": "b5759057ea07a1a7aaee2644e8dc20331007e8e9"
+    "file:///D:/CocosCreator/VideoProject/assets/Script/VideoController.ts": "672d32543be352d08cf6843771656129d71a9a7b"
   }
 }

@@ -3,9 +3,7 @@
     "cce:/internal/x/cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js",
     "cce:/internal/x/prerequisite-imports": "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js",
     "file:///D:/CocosCreator/CocosCreator3.8.3/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/75/757d5cb259289b87021a5a9c56c085b495d3188b.js",
-    "file:///D:/CocosCreator/VideoProject/assets/Script/AssetManagerVideoPlayer.ts": "./chunks/4e/4e07495f02b8f527b16b0b6daabb5143eabf71e4.js",
-    "file:///D:/CocosCreator/VideoProject/assets/Script/VideoController.ts": "./chunks/67/672d32543be352d08cf6843771656129d71a9a7b.js",
-    "file:///D:/CocosCreator/VideoProject/assets/Script/VideoPlayerController.ts": "./chunks/b5/b5759057ea07a1a7aaee2644e8dc20331007e8e9.js"
+    "file:///D:/CocosCreator/VideoProject/assets/Script/VideoController.ts": "./chunks/67/672d32543be352d08cf6843771656129d71a9a7b.js"
   },
   "scopes": {
     "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js": {
@@ -31,17 +29,9 @@
     },
     "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js": {
       "__unresolved_0": "./chunks/75/757d5cb259289b87021a5a9c56c085b495d3188b.js",
-      "__unresolved_1": "./chunks/4e/4e07495f02b8f527b16b0b6daabb5143eabf71e4.js",
-      "__unresolved_2": "./chunks/67/672d32543be352d08cf6843771656129d71a9a7b.js",
-      "__unresolved_3": "./chunks/b5/b5759057ea07a1a7aaee2644e8dc20331007e8e9.js"
-    },
-    "./chunks/b5/b5759057ea07a1a7aaee2644e8dc20331007e8e9.js": {
-      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+      "__unresolved_1": "./chunks/67/672d32543be352d08cf6843771656129d71a9a7b.js"
     },
     "./chunks/67/672d32543be352d08cf6843771656129d71a9a7b.js": {
-      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
-    },
-    "./chunks/4e/4e07495f02b8f527b16b0b6daabb5143eabf71e4.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/75/757d5cb259289b87021a5a9c56c085b495d3188b.js": {

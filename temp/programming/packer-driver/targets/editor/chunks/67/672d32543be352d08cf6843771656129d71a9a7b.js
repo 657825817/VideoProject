@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, VideoPlayer, assetManager, _dec, _class, _class2, _descriptor, _crd, ccclass, property, VideoController;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, VideoPlayer, log, resources, _dec, _dec2, _class, _class2, _descriptor, _crd, ccclass, property, VideoController;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -17,56 +17,105 @@ System.register(["cc"], function (_export, _context) {
       _decorator = _cc._decorator;
       Component = _cc.Component;
       VideoPlayer = _cc.VideoPlayer;
-      assetManager = _cc.assetManager;
+      log = _cc.log;
+      resources = _cc.resources;
     }],
     execute: function () {
       _crd = true;
 
-      _cclegacy._RF.push({}, "69802FiylBLD5nEUePbStSU", "VideoController", undefined);
+      _cclegacy._RF.push({}, "effb0GW0y5KW6jFqSm3JsR1", "VideoController", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'VideoPlayer', 'assetManager', 'VideoClip']);
+      __checkObsolete__(['_decorator', 'Component', 'VideoPlayer', 'log', 'assetManager', 'VideoClip', 'resources']);
 
       ({
         ccclass,
         property
       } = _decorator);
 
-      _export("default", VideoController = (_dec = property(VideoPlayer), ccclass(_class = (_class2 = class VideoController extends Component {
+      _export("VideoController", VideoController = (_dec = ccclass('VideoController'), _dec2 = property(VideoPlayer), _dec(_class = (_class2 = class VideoController extends Component {
         constructor(...args) {
           super(...args);
 
           _initializerDefineProperty(this, "videoPlayer", _descriptor, this);
         }
 
-        start() {
-          // 在开始时播放默认视频
-          this.playVideo('resources/video1.mp4');
+        onLoad() {
+          if (this.videoPlayer) {
+            // //服务器加载
+            // assetManager.loadRemote('SceneryVideo', { reloadAsset: true }, (err, clip) => {
+            //     if (err) {
+            //         log(`Failed to load video: ${err.message}`);
+            //         return;
+            //     }
+            //     // 转换为 VideoClip 类型
+            //     const videoClip: VideoClip = clip as VideoClip;
+            //     // 设置 VideoPlayer 的 clip
+            //     this.videoPlayer!.clip = videoClip;
+            //     // 添加事件监听
+            //     this.videoPlayer!.node.on('ready-to-play', this.onReadyToPlay, this);
+            //     this.videoPlayer!.node.on('playing', this.onPlaying, this);
+            //     this.videoPlayer!.node.on('paused', this.onPaused, this);
+            //     this.videoPlayer!.node.on('stopped', this.onStopped, this);
+            //     this.videoPlayer!.node.on('completed', this.onCompleted, this);
+            //     this.videoPlayer!.node.on('meta-loaded', this.onMetaLoaded, this);
+            //     this.videoPlayer!.node.on('clicked', this.onClicked, this);
+            //     this.videoPlayer!.node.on('error', this.onError, this);
+            //     // 手动调用 ready-to-play 事件
+            //     this.onReadyToPlay();
+            // });
+            //本地文件加载
+            resources.load('SceneryVideo', (err, clip) => {
+              if (err) {
+                log(`Failed to load video: ${err.message}`);
+                return;
+              } // 转换为 VideoClip 类型
+
+
+              const videoClip = clip; // 设置 VideoPlayer 的 clip
+
+              this.videoPlayer.clip = videoClip;
+              this.videoPlayer.play();
+            });
+          }
         }
 
-        playVideo(videoUrl) {
-          assetManager.loadRemote(videoUrl, {
-            ext: '.mp4'
-          }, (err, videoAsset) => {
-            if (err) {
-              console.error('Failed to load video asset:', err);
-              return;
-            } // 转换为 VideoClip 类型
+        onReadyToPlay() {
+          log('Video is ready to play');
 
-
-            const videoClip = videoAsset; // 设置给 videoPlayer.clip
-
-            this.videoPlayer.clip = videoClip; // 播放视频
-
+          if (this.videoPlayer) {
             this.videoPlayer.play();
-          });
-        } // 示例方法，用于在运行时更换视频
-
-
-        changeVideo(event, customEventData) {
-          this.playVideo(customEventData);
+          }
         }
 
-      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "videoPlayer", [_dec], {
+        onPlaying() {
+          log('Video is playing');
+        }
+
+        onPaused() {
+          log('Video is paused');
+        }
+
+        onStopped() {
+          log('Video is stopped');
+        }
+
+        onCompleted() {
+          log('Video play completed');
+        }
+
+        onMetaLoaded() {
+          log('Video meta data loaded');
+        }
+
+        onClicked() {
+          log('Video is clicked');
+        }
+
+        onError() {
+          log('Video player encountered an error');
+        }
+
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "videoPlayer", [_dec2], {
         configurable: true,
         enumerable: true,
         writable: true,

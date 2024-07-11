@@ -1,34 +1,88 @@
-import { _decorator, Component, VideoPlayer, assetManager, VideoClip } from 'cc';
+import { _decorator, Component, VideoPlayer, log, assetManager, VideoClip, resources } from 'cc';
 const { ccclass, property } = _decorator;
 
-@ccclass
-export default class VideoController extends Component {
-
+@ccclass('VideoController')
+export class VideoController extends Component {
     @property(VideoPlayer)
-    videoPlayer: VideoPlayer = null;
+    videoPlayer: VideoPlayer | null = null;
 
-    start() {
-        // 在开始时播放默认视频
-        this.playVideo('resources/video1.mp4');
+    onLoad() {
+        if (this.videoPlayer) {
+
+            // //服务器加载
+            // assetManager.loadRemote('SceneryVideo', { reloadAsset: true }, (err, clip) => {
+            //     if (err) {
+            //         log(`Failed to load video: ${err.message}`);
+            //         return;
+            //     }
+
+            //     // 转换为 VideoClip 类型
+            //     const videoClip: VideoClip = clip as VideoClip;
+
+            //     // 设置 VideoPlayer 的 clip
+            //     this.videoPlayer!.clip = videoClip;
+
+            //     // 添加事件监听
+            //     this.videoPlayer!.node.on('ready-to-play', this.onReadyToPlay, this);
+            //     this.videoPlayer!.node.on('playing', this.onPlaying, this);
+            //     this.videoPlayer!.node.on('paused', this.onPaused, this);
+            //     this.videoPlayer!.node.on('stopped', this.onStopped, this);
+            //     this.videoPlayer!.node.on('completed', this.onCompleted, this);
+            //     this.videoPlayer!.node.on('meta-loaded', this.onMetaLoaded, this);
+            //     this.videoPlayer!.node.on('clicked', this.onClicked, this);
+            //     this.videoPlayer!.node.on('error', this.onError, this);
+
+            //     // 手动调用 ready-to-play 事件
+            //     this.onReadyToPlay();
+            // });
+
+            //本地文件加载
+            resources.load('SceneryVideo', (err, clip) => {
+                if (err) {
+                    log(`Failed to load video: ${err.message}`);
+                    return;
+                }
+                // 转换为 VideoClip 类型
+                const videoClip: VideoClip = clip as VideoClip;
+                // 设置 VideoPlayer 的 clip
+                this.videoPlayer.clip = videoClip;
+                this.videoPlayer.play();
+            });
+        }
     }
 
-    playVideo(videoUrl: string) {
-        assetManager.loadRemote(videoUrl, { ext: '.mp4' }, (err, videoAsset) => {
-            if (err) {
-                console.error('Failed to load video asset:', err);
-                return;
-            }
-            // 转换为 VideoClip 类型
-            const videoClip: VideoClip = videoAsset as VideoClip;
-            // 设置给 videoPlayer.clip
-            this.videoPlayer.clip = videoClip;
-            // 播放视频
+    onReadyToPlay() {
+        log('Video is ready to play');
+        if (this.videoPlayer) {
             this.videoPlayer.play();
-        });
+        }
     }
 
-    // 示例方法，用于在运行时更换视频
-    changeVideo(event, customEventData) {
-        this.playVideo(customEventData);
+    onPlaying() {
+        log('Video is playing');
+    }
+
+    onPaused() {
+        log('Video is paused');
+    }
+
+    onStopped() {
+        log('Video is stopped');
+    }
+
+    onCompleted() {
+        log('Video play completed');
+    }
+
+    onMetaLoaded() {
+        log('Video meta data loaded');
+    }
+
+    onClicked() {
+        log('Video is clicked');
+    }
+
+    onError() {
+        log('Video player encountered an error');
     }
 }
