@@ -1,0 +1,62 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "D:\\CocosCreator\\VideoProject\\assets\\Scene.meta": {
+      "time": 1720674269366.9575
+    },
+    "D:\\CocosCreator\\VideoProject\\assets\\Scene\\VideoScene.scene.meta": {
+      "time": 1720673448402.327
+    },
+    "D:\\CocosCreator\\VideoProject\\assets\\Scene": {
+      "time": 1720691715224.8591,
+      "uuid": "48c33683-30e1-4174-9eb2-2e83e6402b00"
+    },
+    "D:\\CocosCreator\\VideoProject\\assets\\Scene\\VideoScene.scene": {
+      "time": 1720691766301.6724,
+      "uuid": "4fdff5ef-85a4-4579-8b75-d9e21fb1c7a4"
+    },
+    "D:\\CocosCreator\\VideoProject\\assets\\Script.meta": {
+      "time": 1720674287495.6892
+    },
+    "D:\\CocosCreator\\VideoProject\\assets\\Script\\AssetManagerVideoPlayer.ts.meta": {
+      "time": 1720674304109.4924
+    },
+    "D:\\CocosCreator\\VideoProject\\assets\\Script\\VideoController.ts.meta": {
+      "time": 1720678271608.5203
+    },
+    "D:\\CocosCreator\\VideoProject\\assets\\Script\\VideoPlayerController.ts.meta": {
+      "time": 1720675855518.3381
+    },
+    "D:\\CocosCreator\\VideoProject\\assets\\Script": {
+      "time": 1720691715260.8389,
+      "uuid": "80650ffd-2175-475e-9dd6-8f5ba1ea96f3"
+    },
+    "D:\\CocosCreator\\VideoProject\\assets\\Script\\AssetManagerVideoPlayer.ts": {
+      "time": 1720685449520.3667,
+      "uuid": "effb0196-d32e-4a5b-a8c5-a929b726c475"
+    },
+    "D:\\CocosCreator\\VideoProject\\assets\\Script\\VideoController.ts": {
+      "time": 1720678616516.5854,
+      "uuid": "69802162-ca50-4b0f-99c4-51e3db4ad494"
+    },
+    "D:\\CocosCreator\\VideoProject\\assets\\Script\\VideoPlayerController.ts": {
+      "time": 1720675896795.2014,
+      "uuid": "2568fb8a-2971-4b30-aca7-f9a976f4bfb3"
+    },
+    "D:\\CocosCreator\\VideoProject\\assets\\resources.meta": {
+      "time": 1720691715396.7607
+    },
+    "D:\\CocosCreator\\VideoProject\\assets\\resources": {
+      "time": 1720691715224.8591,
+      "uuid": "948490fc-9fa5-4d65-a7e7-c4e6cfb104f8"
+    },
+    "D:\\CocosCreator\\VideoProject\\assets\\resources\\SceneryVideo.mp4.meta": {
+      "time": 1720691715736.0078
+    },
+    "D:\\CocosCreator\\VideoProject\\assets\\resources\\SceneryVideo.mp4": {
+      "time": 1720673435590.2712,
+      "uuid": "2a145dff-250e-47bd-8b24-5bf9d1d6f5f5"
+    }
+  },
+  "missing": {}
+}

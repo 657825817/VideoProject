@@ -1,0 +1,51 @@
+{
+  "48c33683-30e1-4174-9eb2-2e83e6402b00": {
+    "url": "db://assets/Scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "4fdff5ef-85a4-4579-8b75-d9e21fb1c7a4": {
+    "url": "db://assets/Scene/VideoScene.scene",
+    "value": {
+      "depends": [
+        "4fdff5ef-85a4-4579-8b75-d9e21fb1c7a4"
+      ],
+      "dependScripts": [
+        "effb0196-d32e-4a5b-a8c5-a929b726c475"
+      ]
+    },
+    "versionCode": 1
+  },
+  "80650ffd-2175-475e-9dd6-8f5ba1ea96f3": {
+    "url": "db://assets/Script",
+    "value": {},
+    "versionCode": 1
+  },
+  "effb0196-d32e-4a5b-a8c5-a929b726c475": {
+    "url": "db://assets/Script/AssetManagerVideoPlayer.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "69802162-ca50-4b0f-99c4-51e3db4ad494": {
+    "url": "db://assets/Script/VideoController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2568fb8a-2971-4b30-aca7-f9a976f4bfb3": {
+    "url": "db://assets/Script/VideoPlayerController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "948490fc-9fa5-4d65-a7e7-c4e6cfb104f8": {
+    "url": "db://assets/resources",
+    "value": {},
+    "versionCode": 1
+  },
+  "2a145dff-250e-47bd-8b24-5bf9d1d6f5f5": {
+    "url": "db://assets/resources/SceneryVideo.mp4",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  }
+}
